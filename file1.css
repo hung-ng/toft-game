@@ -44,8 +44,10 @@
 }
 .font3{
     font-weight: bold;
-    margin-left: 10px;
+    color: rgb(48, 48, 48);
+    margin-left: 50px;
     font-size: 40px;
+
 }
 .mar20{
     margin: 20px;
@@ -57,4 +59,7 @@
 .none{
     text-decoration: none;
     color: black;
+}
+.hrbox{
+    margin: 100px 50px;
 }
