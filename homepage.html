@@ -7,15 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="./file1.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+    <link rel="stylesheet" href="slider.css" />
 </head>
 
 <body>
     <div class="nav">
-        <div class="flexrow cursor">
+        <div class="flexrow cursor center">
             <div style="font-size: 50px;">
                 <i class="fas fa-gamepad"></i>
             </div>
-            <div > TOFTGAME</div>
+            <div> TOFTGAME</div>
         </div>
         <div class="cursor" onmouseover="" id="home">Home</div>
         <div class="cursor" id="game">Games</div>
@@ -23,9 +24,10 @@
         <div class="cursor">Contact</div>
     </div>
     <div class="bodybox">
-        <div class="flexrow">
+        <div class="flexrow center">
             <div>
-                <img src="https://gamestorrent.co/wp-content/uploads/2017/02/Hollow-Knight-Free-Download-1.jpg" width="700px">
+                <img src="https://gamestorrent.co/wp-content/uploads/2017/02/Hollow-Knight-Free-Download-1.jpg"
+                    width="700px">
             </div>
             <div>
                 <div class="font2 smallbox">REVIEW</div>
@@ -34,16 +36,43 @@
         </div>
     </div>
     <br>
-    <div>
-        <div class="font3">NEW HOT GAME</div>
-        <br>
-        <div class="flexrow" style="margin-left: 30px;">
-        <div class="mar20"><img src="https://i.ytimg.com/vi/SGIg7QL4m30/maxresdefault.jpg" width="300px"></div>
-        <div class="mar20"><img src="https://th.bing.com/th/id/OIP.-bpRNJ7nRMEOOXM_08MD0wHaEK?pid=Api&rs=1" width="300px"></div>
-        <div class="mar20"><img src="https://image.jeuxvideo.com/medias/159232/1592320737-9462-jaquette-avant.jpg" width="300px"></div>
+    <br>
+    <div class="font3 center">2020 Popular Games</div>
+    <br>
+    <div class="slideshow-container">
+        <div class="mySlides fade center">
+            <img src="https://www.techworm.net/wp-content/uploads/2020/04/Call-of-Duty-Modern-Warfare-Servers-Down.jpg" style="width:23%">
+            <img src="https://i.ytimg.com/vi/SGIg7QL4m30/maxresdefault.jpg" style="width:23%">
+            <img src="https://th.bing.com/th/id/OIP.-bpRNJ7nRMEOOXM_08MD0wHaEK?pid=Api&rs=1" style="width:23%">
+            <img src="https://image.jeuxvideo.com/medias/159232/1592320737-9462-jaquette-avant.jpg" style="width:23%">
         </div>
+
+        <div class="mySlides fade center">
+            <img src="https://i.ytimg.com/vi/SGIg7QL4m30/maxresdefault.jpg" style="width:23%">
+            <img src="https://th.bing.com/th/id/OIP.-bpRNJ7nRMEOOXM_08MD0wHaEK?pid=Api&rs=1" style="width:23%">
+            <img src="https://image.jeuxvideo.com/medias/159232/1592320737-9462-jaquette-avant.jpg" style="width:23%">
+            <img src="https://th.bing.com/th/id/OIP.goVlIzh9yqriOfIEGdJ-MAHaEK?pid=Api&rs=1" style="width:23%">
+        </div>
+
+        <div class="mySlides fade center">
+            <img src="https://th.bing.com/th/id/OIP.-bpRNJ7nRMEOOXM_08MD0wHaEK?pid=Api&rs=1" style="width:23%">
+            <img src="https://image.jeuxvideo.com/medias/159232/1592320737-9462-jaquette-avant.jpg" style="width:23%">
+            <img src="https://th.bing.com/th/id/OIP.goVlIzh9yqriOfIEGdJ-MAHaEK?pid=Api&rs=1" style="width:23%">
+            <img src="https://upload.wikimedia.org/wikipedia/it/thumb/8/86/Overwatch_%28videogioco%29.jpg/1200px-Overwatch_%28videogioco%29.jpg" style="width:23%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
+
+
+    <script src="slider.js"></script>
 </body>
 
 </html>
