@@ -20,7 +20,7 @@
 }
 .bodybox{
     padding: 30px;
-    background-color: grey;
+    background-color: black;
     align-items: center;
     text-align: center;
 }
@@ -29,11 +29,12 @@
     font-size: large;
 }
 .font2{
+    color: white;
     font-weight: bolder;
     font-size: 75px;
 }
 .smallbox{
-    border: 2px solid black;
+    border: 2px solid white;
     margin-left: 40px;
     margin-top: 10px;
     align-items: center;
@@ -62,4 +63,12 @@
 }
 .hrbox{
     margin: 100px 50px;
+}
+.endpage{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px;
+}
+.lasthr{
+    margin: 30px 50px;
 }
