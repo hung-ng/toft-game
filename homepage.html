@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./file1.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
     <link rel="stylesheet" href="slider.css" />
-
+    <link rel="Icon" href="https://cdn2.iconfinder.com/data/icons/computer-29/500/255-512.png">
 </head>
 
 <body>
@@ -44,15 +44,15 @@
     <br>
     <div class="slideshow-container">
         <div class="mySlides1 fade center">
-            <img src="https://www.techworm.net/wp-content/uploads/2020/04/Call-of-Duty-Modern-Warfare-Servers-Down.jpg"
-                style="width:23%">
-            <img src="https://i.ytimg.com/vi/SGIg7QL4m30/maxresdefault.jpg" style="width:23%">
+            <a class="none" href="./CoD.html"><img src="https://www.techworm.net/wp-content/uploads/2020/04/Call-of-Duty-Modern-Warfare-Servers-Down.jpg"
+                style="width:23%"></a>
+            <a class="none" href="./AmongUs.html"><img src="https://i.ytimg.com/vi/SGIg7QL4m30/maxresdefault.jpg" style="width:23%"></a>            
             <img src="https://th.bing.com/th/id/OIP.-bpRNJ7nRMEOOXM_08MD0wHaEK?pid=Api&rs=1" style="width:23%">
             <img src="https://image.jeuxvideo.com/medias/159232/1592320737-9462-jaquette-avant.jpg" style="width:23%">
         </div>
 
         <div class="mySlides1 fade center">
-            <img src="https://i.ytimg.com/vi/SGIg7QL4m30/maxresdefault.jpg" style="width:23%">
+            <a class="none" href="./AmongUs.html"><img src="https://i.ytimg.com/vi/SGIg7QL4m30/maxresdefault.jpg" style="width:23%"></a>
             <img src="https://th.bing.com/th/id/OIP.-bpRNJ7nRMEOOXM_08MD0wHaEK?pid=Api&rs=1" style="width:23%">
             <img src="https://image.jeuxvideo.com/medias/159232/1592320737-9462-jaquette-avant.jpg" style="width:23%">
             <img src="https://th.bing.com/th/id/OIP.goVlIzh9yqriOfIEGdJ-MAHaEK?pid=Api&rs=1" style="width:23%">
@@ -79,11 +79,6 @@
         <hr>
     </div>
     <div class="font3 " id="hardware">Hardwares</div>
-
-
-
-
-
     <div class="slideshow-container">
         <div class="mySlides2 fade center"><a class="none" href="https://www.nintendo.com/switch/buy-now/accessories/">
             <img src="https://www.nintendo.com/content/dam/noa/en_US/hardware/switch/accessories/nintendo-switch-pro-controller/pro_controller.jpg"
@@ -117,7 +112,6 @@
             <img src="https://www.nintendo.com/content/dam/noa/en_US/hardware/switch/accessories/pro-controller-charging-dock/220x220_Accessories_3rdParty_ProControllerChargingDock.jpg"
                 style="width:23%">
         </a></div>
-
         <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
     </div>
@@ -127,11 +121,16 @@
         <span class="dot2" onclick="currentSlide2(2)"></span>
         <span class="dot2" onclick="currentSlide2(3)"></span>
     </div> -->
-
-
-
-
-
+    <div class="hrbox">
+        <hr>
+    </div>
+    <div class="font4 center">Feedback</div>
+        <div class="center">
+            <form id="info">
+                <input type="text" name="Feedback" placeholder="Write your feedback" style="width: 600px; height: 100px;">
+                <button type="submit">submit</button>
+            </form>
+        </div>
     <div class="lasthr">
         <hr>
     </div>
@@ -174,7 +173,7 @@
 
 
     <script src="slider.js"></script>
-    <!-- <script src="slider2.js"></script> -->
+    <script src="feedback.js"></script>
 </body>
 
 </html>
